@@ -1,5 +1,5 @@
-from singleton.another_module.singleton_config import config
-from singleton.singleton_lazy import LazySingleton
+from creational.singleton.another_module.singleton_config import config
+from creational.singleton.singleton_lazy import LazySingleton
 
 # Anywhere in your app, you just import 'config'.
 # It's guaranteed to be the exact same instance.
