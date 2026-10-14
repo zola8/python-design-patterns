@@ -43,3 +43,9 @@ The **State Pattern** is about allowing an object to change its behavior when it
 
 Think of it like a traffic light: the same light fixture behaves completely differently depending on its state
 (red → stop, yellow → caution, green → go). The transitions are automatic and governed by rules.
+
+The **Composite Pattern** is about treating individual objects and groups of objects uniformly.
+
+Think of it like a folder on your computer: a folder can contain files, or other folders, or both.
+When you ask "how big is this?", the OS recursively adds everything up — and it doesn't matter
+if you asked about a single file or the whole Documents tree. Same interface, same answer.
