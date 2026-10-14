@@ -30,5 +30,11 @@ The **Strategy Pattern** is about defining a family of algorithms, encapsulating
 interchangeable.
 The client chooses which algorithm to use at runtime without changing the code that uses it.
 
-The **Observer Pattern** is about defining a one-to-many dependency between objects 
+The **Observer Pattern** is about defining a one-to-many dependency between objects
 so that when one object changes state, all its dependents are notified automatically.
+
+The **Command Pattern** is about encapsulating a request as an object, allowing you to parameterize clients
+with different requests, queue or log requests, and support undoable operations.
+
+Think of it like a restaurant order: the waiter doesn't cook the food — they take your order (a command object),
+write it down, and pass it to the kitchen. The order can be queued, modified, cancelled, or even replayed later.
