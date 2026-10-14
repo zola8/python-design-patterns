@@ -29,3 +29,6 @@ Behavioral patterns handle algorithms, workflows, and interactions.
 The **Strategy Pattern** is about defining a family of algorithms, encapsulating each one, and making them
 interchangeable.
 The client chooses which algorithm to use at runtime without changing the code that uses it.
+
+The **Observer Pattern** is about defining a one-to-many dependency between objects 
+so that when one object changes state, all its dependents are notified automatically.
