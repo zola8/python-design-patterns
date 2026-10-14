@@ -19,3 +19,13 @@ A proxy stands between the client and the real object, acting as a gatekeeper, p
 Think of it like a credit card: it's not the actual money in your bank account, but it controls access to it.
 The merchant doesn't need to know your bank details — the card (proxy) handles the transaction,
 checks your balance, and only then touches the real money.
+
+### Behavioral patterns
+
+These are all about how objects communicate and assign responsibilities.
+While Creational patterns handle object birth and Structural patterns handle composition,
+Behavioral patterns handle algorithms, workflows, and interactions.
+
+The **Strategy Pattern** is about defining a family of algorithms, encapsulating each one, and making them
+interchangeable.
+The client chooses which algorithm to use at runtime without changing the code that uses it.
