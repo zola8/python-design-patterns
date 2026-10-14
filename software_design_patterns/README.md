@@ -7,9 +7,15 @@ They deal with classes, objects, and code inside a single application or process
 - Structural: How objects are composed to form larger structures. (Adapter, Decorator, Facade)
 - Behavioral: How objects communicate and assign responsibilities. (Strategy, Observer, Command)
 
-### Additional infos
+### Structural patterns
 
-**Structural patterns** are about how objects are composed to form larger, more complex structures. They help you
+Structural patterns are about how objects are composed to form larger, more complex structures. They help you
 realize relationships between entities.
 
-The Adapter Pattern is all about making incompatible interfaces work together.
+The **Adapter Pattern** is all about making incompatible interfaces work together.
+
+The **Proxy Pattern** is about controlling access to an object.
+A proxy stands between the client and the real object, acting as a gatekeeper, placeholder, or intermediary.
+Think of it like a credit card: it's not the actual money in your bank account, but it controls access to it.
+The merchant doesn't need to know your bank details — the card (proxy) handles the transaction,
+checks your balance, and only then touches the real money.
