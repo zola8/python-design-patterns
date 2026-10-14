@@ -38,3 +38,8 @@ with different requests, queue or log requests, and support undoable operations.
 
 Think of it like a restaurant order: the waiter doesn't cook the food — they take your order (a command object),
 write it down, and pass it to the kitchen. The order can be queued, modified, cancelled, or even replayed later.
+
+The **State Pattern** is about allowing an object to change its behavior when its internal state changes.
+
+Think of it like a traffic light: the same light fixture behaves completely differently depending on its state
+(red → stop, yellow → caution, green → go). The transitions are automatic and governed by rules.
