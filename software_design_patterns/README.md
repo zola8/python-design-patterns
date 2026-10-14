@@ -20,6 +20,12 @@ Think of it like a credit card: it's not the actual money in your bank account, 
 The merchant doesn't need to know your bank details — the card (proxy) handles the transaction,
 checks your balance, and only then touches the real money.
 
+The **Composite Pattern** is about treating individual objects and groups of objects uniformly.
+
+Think of it like a folder on your computer: a folder can contain files, or other folders, or both.
+When you ask "how big is this?", the OS recursively adds everything up — and it doesn't matter
+if you asked about a single file or the whole Documents tree. Same interface, same answer.
+
 ### Behavioral patterns
 
 These are all about how objects communicate and assign responsibilities.
@@ -44,8 +50,7 @@ The **State Pattern** is about allowing an object to change its behavior when it
 Think of it like a traffic light: the same light fixture behaves completely differently depending on its state
 (red → stop, yellow → caution, green → go). The transitions are automatic and governed by rules.
 
-The **Composite Pattern** is about treating individual objects and groups of objects uniformly.
+The **Chain of Responsibility pattern** is about passing a request along a chain of handlers
+until one of them handles it. Each handler decides: "Can I handle this? If yes, process it.
+If no, pass it to the next handler."
 
-Think of it like a folder on your computer: a folder can contain files, or other folders, or both.
-When you ask "how big is this?", the OS recursively adds everything up — and it doesn't matter
-if you asked about a single file or the whole Documents tree. Same interface, same answer.
