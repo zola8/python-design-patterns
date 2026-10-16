@@ -6,3 +6,5 @@ httpx
 transitions
 tenacity
 python-multipart
+pytest
+pytest-asyncio
