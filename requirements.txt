@@ -4,3 +4,4 @@ uvicorn
 asyncio
 httpx
 transitions
+tenacity
